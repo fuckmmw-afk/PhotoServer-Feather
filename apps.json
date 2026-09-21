@@ -11,7 +11,17 @@
       "subtitle": "Process photos from Apple Photos",
       "localizedDescription": "Open a photo in Apple Photos, choose Edit, then select PhotoServer. Feather signs this IPA using your configured certificate and provisioning profile.",
       "category": "photo-video",
-      "versions": [],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "buildVersion": "9",
+          "date": "2026-09-21T00:00:00Z",
+          "localizedDescription": "Feather-compatible App Group configuration and Photo Editing Extension fixes.",
+          "downloadURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/releases/PhotoServer-1.1.0-9.ipa",
+          "size": 147607,
+          "minOSVersion": "18.0"
+        }
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups"
