@@ -8,14 +8,14 @@
       "bundleIdentifier": "app.capricorn1136.rose5722",
       "developerName": "PhotoServer",
       "subtitle": "Process photos from Apple Photos",
-      "version": "1.1.1",
-      "versionDate": "2026-09-21T10:54:58Z",
-      "versionDescription": "AltStore-compatible Feather source. Fixes the Photos extension watchdog and adds safe operational diagnostics.",
-      "downloadURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/releases/PhotoServer-1.1.1-10.ipa",
+      "version": "1.1.2",
+      "versionDate": "2026-09-21T11:46:16Z",
+      "versionDescription": "Automated GitHub build published for Feather (build 11).",
+      "downloadURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/releases/PhotoServer-1.1.2-11.ipa",
       "localizedDescription": "Open a photo in Apple Photos, choose Edit, then select PhotoServer. Feather signs this IPA using your configured certificate and provisioning profile.",
       "iconURL": "https://raw.githubusercontent.com/fuckmmw-afk/ios-photo-server-extension/main/feather/icon.png",
       "tintColor": "0A84FF",
-      "size": 178373
+      "size": 178375
     }
   ]
 }
