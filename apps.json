@@ -1,0 +1,23 @@
+{
+  "name": "PhotoServer",
+  "subtitle": "Photo editing extension for Apple Photos",
+  "description": "Signed on-device with Feather. Configure the PhotoServer connection in the app before editing a photo in Apple Photos.",
+  "tintColor": "#0A84FF",
+  "apps": [
+    {
+      "name": "PhotoServer",
+      "bundleIdentifier": "app.capricorn1136.rose5722",
+      "developerName": "PhotoServer",
+      "subtitle": "Process photos from Apple Photos",
+      "localizedDescription": "Open a photo in Apple Photos, choose Edit, then select PhotoServer. Feather signs this IPA using your configured certificate and provisioning profile.",
+      "category": "photo-video",
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ]
+      }
+    }
+  ],
+  "news": []
+}
