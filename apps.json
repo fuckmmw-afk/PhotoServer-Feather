@@ -1,42 +1,21 @@
 {
   "name": "PhotoServer",
-  "subtitle": "Photo editing extension for Apple Photos",
-  "description": "Signed on-device with Feather. Configure the PhotoServer connection in the app before editing a photo in Apple Photos.",
-  "tintColor": "#0A84FF",
+  "identifier": "app.capricorn1136.rose5722.source",
+  "sourceURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/apps.json",
   "apps": [
     {
       "name": "PhotoServer",
       "bundleIdentifier": "app.capricorn1136.rose5722",
       "developerName": "PhotoServer",
       "subtitle": "Process photos from Apple Photos",
+      "version": "1.1.1",
+      "versionDate": "2026-09-21T10:54:58Z",
+      "versionDescription": "AltStore-compatible Feather source. Fixes the Photos extension watchdog and adds safe operational diagnostics.",
+      "downloadURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/releases/PhotoServer-1.1.1-10.ipa",
       "localizedDescription": "Open a photo in Apple Photos, choose Edit, then select PhotoServer. Feather signs this IPA using your configured certificate and provisioning profile.",
-      "category": "photo-video",
-      "versions": [
-        {
-          "version": "1.1.1",
-          "buildVersion": "10",
-          "date": "2026-09-21T10:54:58Z",
-          "localizedDescription": "Automated GitHub build published for Feather.",
-          "downloadURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/releases/PhotoServer-1.1.1-10.ipa",
-          "size": 178373,
-          "minOSVersion": "18.0"
-        },
-        {
-          "version": "1.1.0",
-          "buildVersion": "9",
-          "date": "2026-09-21T09:45:50Z",
-          "localizedDescription": "Automated GitHub build published for Feather.",
-          "downloadURL": "https://raw.githubusercontent.com/fuckmmw-afk/PhotoServer-Feather/main/releases/PhotoServer-1.1.0-9.ipa",
-          "size": 147607,
-          "minOSVersion": "18.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups"
-        ]
-      }
+      "iconURL": "https://raw.githubusercontent.com/fuckmmw-afk/ios-photo-server-extension/main/feather/icon.png",
+      "tintColor": "0A84FF",
+      "size": 178373
     }
-  ],
-  "news": []
+  ]
 }
